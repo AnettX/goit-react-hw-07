@@ -14,7 +14,7 @@
 }
 
 .contactItemContainer {
-  width: 214px;
+  min-width: 250px;
   max-height: 72px;
   border: 1px solid black;
   border-radius: 4px;
@@ -23,6 +23,8 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  align-items: flex-start;
+  column-gap: 10px;
 }
 
 .contactItemContainer .btn {
